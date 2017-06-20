@@ -1,1 +1,1 @@
-Notes for future revision of Machine Learning Algorithms.#Notes
+Machine Learning Notes
