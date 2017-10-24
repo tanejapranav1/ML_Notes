@@ -2,7 +2,7 @@
 import numpy as np
 import cv2
 
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture('http://192.168.1.2:4747/mjpegfeed?960x720')
 facec = cv2.CascadeClassifier('/home/pranav/perceptron/ML_Notes/Open_CV_Notes/Haar_Classifier/haarcascade_frontalface_default.xml')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
